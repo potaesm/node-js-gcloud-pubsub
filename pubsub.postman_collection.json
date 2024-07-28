@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "2618956d-9989-4a5d-a105-c3b471da69db",
+		"name": "pubsub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28596927"
+	},
+	"item": [
+		{
+			"name": "localhost:3001/api/user/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Suthinan Musitmani\",\r\n    \"username\": \"potaesm\",\r\n    \"email\": \"potaesm@gmail.com\",\r\n    \"phone\": \"0812345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/api/user/create",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5001/api/email/pull",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/api/email/pull",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"email",
+						"pull"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

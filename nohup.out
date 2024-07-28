@@ -1,0 +1,13 @@
+yarn run v1.22.22
+$ node src/user-pub.js
+(node:25960) [DEP0040] DeprecationWarning:(node:17264) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Email NMessage ID:13 published
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+potaesm',
+  email: 'potaesm@gmail.com',
+  phone: '0812345678'
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
