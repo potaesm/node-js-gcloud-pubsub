@@ -1,0 +1,16 @@
+{
+  "name": "node-js-gcloud-pubsub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/potaesm/node-js-gcloud-pubsub.git",
+  "author": "Suthinan Musitmani",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.5.0",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "user-pub": "node src/user-pub.js",
+    "email-sub": "node src/email-sub.js"
+  }
+}
